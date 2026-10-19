@@ -23,3 +23,11 @@ node Lesson3/Junio_AdrianRussell_CC104_W6.js
 ```
 
 Each program prints its results in the terminal.
+
+## Git workflow demonstration
+
+The repository keeps the original commits and adds separate commits for the three lesson folders. The `documentation` branch adds the lesson guide and is merged into `main` with a merge commit.
+
+A second local copy was created with `git clone`. This final README update was committed in that copy and can be synchronized to the original folder with `git pull origin main`.
+
+The final submission commit is named `midterm_sourcefiles_demo`.
